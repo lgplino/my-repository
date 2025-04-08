@@ -1,8 +1,10 @@
+import Home from "./home/home";
+
 const App = () => {
 
   return (
     <>
-      App
+      <Home></Home>
     </>
   )
 }
