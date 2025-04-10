@@ -1,4 +1,5 @@
 {
+  "homepage": "https://lgplino.github.io/my-repository/",
   "name": "my-repository",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
